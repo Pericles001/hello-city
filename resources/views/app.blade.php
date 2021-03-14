@@ -17,7 +17,8 @@
 {{config('project.slogan')}}
 
 <footer>
-<p> @yield('footer') </p>
+<p> @yield('footer')
+ </p>
 </footer>
 
             </body>
