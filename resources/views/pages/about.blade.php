@@ -1,7 +1,7 @@
 @extends('app')
 
 
-@section('title', 'About Us | Hello city')
+@section('title', 'About Us |'.env('APP_NAME'))
 
 
 
