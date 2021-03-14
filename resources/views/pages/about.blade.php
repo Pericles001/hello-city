@@ -1,7 +1,7 @@
 @extends('app')
 
 
-@section('title', 'About Us |'.env('APP_NAME'))
+@section('title', 'About Us |'.config('app.name'))
 
 
 

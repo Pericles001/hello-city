@@ -5,13 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>
-        @yield('title', env('APP_NAME'))
+        @yield('title',config('app.name'))
         </title>
 
     </head>
     <body class="antialiased">
 
 @yield('content')
+
+
+{{config('project.slogan')}}
 
 <footer>
 <p> @yield('footer') </p>
