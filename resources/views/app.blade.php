@@ -8,13 +8,16 @@
         @yield('title',config('app.name'))
         </title>
 
+        <link rel="stylesheet" href="<?php echo asset('css/dist/app.css')?>" type="text/css">  
+
+
     </head>
     <body class="antialiased">
 
 @yield('content')
 
 
-{{config('project.slogan')}}
+<p>{{config('project.slogan')}}</p>
 
 <footer>
 <p> 

@@ -1,0 +1,59 @@
+$background : #1b1b32;
+$color: white;
+
+
+@mixin imgPose{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 550px;
+
+}
+
+
+@mixin footer{
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+
+html{
+    margin: 0;
+    padding:0;
+    background-color: $background;
+   
+}
+
+.antialiased{
+
+
+    a{
+        @include footer();
+    }
+    img{
+        @include imgPose();
+        
+    }
+
+    h1{
+        @include imgPose();
+        margin-top: 100px;
+        font-size: 40px;
+    }
+    p{
+        @include imgPose();
+        margin-top: 50px;
+        margin-left: 600px;
+    }
+    color:$color;
+
+
+    footer{
+        
+        a{
+            @include footer();
+                  
+        }
+    }
+        }

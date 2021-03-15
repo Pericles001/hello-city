@@ -1,0 +1,38 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b32;
+}
+
+.antialiased {
+  color: white;
+}
+.antialiased a {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}
+.antialiased img {
+  position: relative;
+  margin-top: 150px;
+  margin-left: 550px;
+}
+.antialiased h1 {
+  position: relative;
+  margin-top: 150px;
+  margin-left: 550px;
+  margin-top: 100px;
+  font-size: 40px;
+}
+.antialiased p {
+  position: relative;
+  margin-top: 150px;
+  margin-left: 550px;
+  margin-top: 50px;
+  margin-left: 600px;
+}
+.antialiased footer a {
+  color: gray;
+  font-weight: bold;
+  text-decoration: none;
+}
