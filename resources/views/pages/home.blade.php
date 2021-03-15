@@ -6,7 +6,7 @@
 
 @section('content')
 
-<img src="img/benin-flag-medium.png" height="200" width="300" alt="Benin flag">
+<img src="{{asset('img/benin-flag-medium.png')}}" height="200" width="300" alt="Benin flag">
 
 <h1>Hello from Benin!</h1>
 

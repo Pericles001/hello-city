@@ -9,7 +9,7 @@
 @section('content')
 
 
-<img src="img/LogoMakr-6tKcbZ.png" alt="Benin flag">
+<img src="{{asset('img/LogoMakr-6tKcbZ.png')}}" alt="Benin flag">
 
 <p>Built with &hearts; by Pericles001</p>
  
