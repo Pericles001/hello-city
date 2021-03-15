@@ -16,8 +16,3 @@
 @endsection
 
 
-
-@section('footer')
-
-&copy; Copyright {{date('Y')}} 
-@endsection  

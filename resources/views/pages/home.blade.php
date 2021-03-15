@@ -12,9 +12,3 @@
 
 @endsection
 
-@section('footer')
-
-&copy; Copyright {{date('Y')}} &middot;
- <a href="{{route('about')}}">About Us</a>
-
-@endsection
