@@ -1,12 +1,12 @@
-$background : #1b1b32;
-$color: white;
+$background : #1d3557;
+$color: #f1faee;
 
 
 @mixin imgPose{
     position: relative;
     margin-top: 150px;
     margin-left: 550px;
-
+color: $color;
 }
 
 
